@@ -33,9 +33,7 @@ group :doc do
 
 ruby '2.0.0'  # to maintain parity between 'development' and 'production'
  
-  #this may already exist in the Gemfile
 gem 'rails_12factor', group: :production
-
 end
 
 # Use ActiveModel has_secure_password
